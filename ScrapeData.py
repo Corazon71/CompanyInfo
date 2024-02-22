@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 
 
 def search_query(query):
-    api_key = "AIzaSyAL4Qcr-1NN4ORudhZFAFwq90iXskgqoYA"
-    cx = "f1baa89bdf454472e"
+    api_key = ""
+    cx = ""
     num_results = 5
     url = f"https://www.googleapis.com/customsearch/v1?q={query}&cx={cx}&key={api_key}&num={num_results}"
     response = requests.get(url)
